@@ -8,6 +8,7 @@
 
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -21,6 +22,16 @@
         float: right;
         width: 70%;
     }
+    div.campo > input {
+        background-color: #FFDF42;
+        font-size: 1em;
+        width: 89%;
+        transform: translateY(-12px);
+        height: 100%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -31,6 +42,7 @@
 
     section#login {
         width: 950px;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -49,6 +61,17 @@
     }
 
     div#formulário > p {
-        font-size:  1.2em;
+        font-size:  1.1em;
+        margin: 10px 0px;
+    }
+    div.campo > input {
+        background-color: #FFDF42;
+        font-size: 1em;
+        width: 90%;
+        transform: translateY(-12px);
+        height: 100%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
     }
 }
